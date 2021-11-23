@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.star.sanyademo.mapper.db2.TypeMapper">
+
+<select id="selectList" resultType="com.star.sanyademo.entity.db2.TypeDto">
+
+    select  id,typecode,typename,typepid,typegroupid from t_s_type where 1=1
+</select>
+
+</mapper>
